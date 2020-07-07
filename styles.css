@@ -1,0 +1,45 @@
+#movies img ,#movie img{
+    width: 100%;
+}
+
+.well2{
+    background-color: rgb(24, 23, 23);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+}
+
+.navbar-brand{
+    color: white;
+    text-transform: uppercase;
+}
+
+.space{
+    padding: 20px;
+}
+
+.spacing{
+    text-align: center;
+    padding: 20px;
+}
+
+
+.spacing a{
+    margin-left:10px ;
+    margin-right: 10px;
+}
+
+
+
+@media(min-width:960px){
+
+    #movies .col-md-3 .well{
+        height: 398px;
+    }
+    
+    #movies .col-md-3 img{
+        height: 248px;
+    }
+}
+
